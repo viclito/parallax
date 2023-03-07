@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(#B99B6B,#FFE7CC);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#B99B6B,#FFE7CC);
+    border-radius: 10px;
+}
+nav{
+    position: relative;
+    background-image:linear-gradient(to right, #815555 ,#9d7d7d,#704F4F);
+    display: flex;
+    align-items: center;
+
+}
+.tea{
+    color: #472D2D;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    margin-left: 90px;
+    display: inline-block;
+    margin-top:0;
+    
+}
+.a{
+    position: absolute;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 1110px;
+    
+}
+.a a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #472D2D;
+    padding: 10px 20px;
+}
+.a a:hover{
+    font-size: 27px;
+    color: #ccc;
+
+}
+.img1{
+    background-image: url("img/main.jpg");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 70%;
+    background-attachment: fixed;
+}
+
+.text1{
+    position: absolute;
+    text-align: center;
+    margin-top:19rem ;
+    margin-left: 500px;
+    font-size: 2.5rem;
+    color: #4c2f2f;
+
+}
+#img2{
+    background-image: url("img/tea.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 70%;
+    background-attachment: fixed;
+}
+.text2{
+    position: absolute;
+    text-align: center;
+    margin-top:19rem ;
+    margin-left: 500px;
+    font-size: 2.5rem;
+    color: #4c2f2f;
+
+}
+
+#tea1{
+    position: relative;
+    background-image:linear-gradient(to right ,rgb(94, 91, 91),rgb(194, 183, 183),rgb(219, 219, 219));
+    margin-top: 0;
+    display: block;
+    padding: 20px 30px;
+}
+.img2a{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+
+}
+#tea1a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img2a img{
+    width: 20rem;
+    height: 15rem;
+}
+.text2a{
+    text-align: center;
+    width: 400px;
+    margin-top: 30px;
+   
+}
+.img2aa img{
+    width: 18rem;
+    height: 23rem;
+}
+.img2aa{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.text2a1{
+    text-align: center;
+    width: 400px;
+    margin-top: 30px;
+}
+.img2aaa{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 150px;
+    gap: 20px;
+}
+.img2aaa img{
+    width: 30rem;
+    height: 20rem;
+}
+.text2a2{
+    display: inline-block;
+    width: 500px;
+    
+}
+#img3{
+    background-image: url("img/coffee2.jpg");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 70%;
+    background-attachment: fixed;
+}
+.text3{
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 90px;
+    
+}
+.coffee1{
+    position: relative;
+}
+.coffee1 img{
+    margin-left: 500px;
+    margin-top: 190px;
+    width: 600px;
+    background-attachment: fixed;
+}
+.coffee1a{
+    position: absolute;
+    color: #4c2f2f;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 390px;
+}
+
+
+
+
+
+
+
+
+.label,
+.content {
+  padding: 14px 20px;
+}
+
+.label {
+  display: block;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+.content {
+  background-image:linear-gradient(to right ,rgb(94, 91, 91),rgb(194, 183, 183),rgb(219, 219, 219));
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked ~.content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img4{
+    background-image: url("img/cappuccino.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 70%;
+    background-attachment: fixed;
+}
+
+.caps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-image:linear-gradient(to right,rgb(94, 91, 91),rgb(194, 183, 183),rgb(219, 219, 219));
+}
+.capsimg{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    margin: 10px;
+
+}
+.diff {
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    width: 400px;
+    margin: 10px 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.diffa {
+    width: 400px;
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.diff1 {
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    width: 400px;
+    margin: 10px 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.diff1a {
+    width: 400px;
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+
+.diff2 {
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    width: 400px;
+    margin: 10px 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.diff2a {
+    width: 400px;
+    background-image:linear-gradient(to right,#ffe4b5,#e7e4de,#e0c89e);
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.capsh1{
+    color: #472D2D;
+}
+
+.text4{
+    position: absolute;
+    text-align: center;
+    margin-top:13rem ;
+    margin-left: 540px;
+    font-size: 4rem;
+    color: #4c2f2f;
+    border:2px solid #ccc;
+    border-radius: 10px;
+    padding: 2px;
+}
+#img5{
+    background-image: url(img/milk.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text5{
+    position: absolute;
+    color: #4c2f2f;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+.text5 span{
+    
+    font-size: 4rem;
+    color: #ffffff;
+}
+.text5 h1{
+    margin-top: 10rem;
+}
+.b{
+    margin-left: 27rem;
+}
+.b1{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #4c2f2f;
+}
